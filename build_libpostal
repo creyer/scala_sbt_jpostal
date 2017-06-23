@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+./bootstrap.sh
+./configure --datadir=$LIBPOSTAL_DATA --bindir=/bin
+make
+make install
+ldconfig
+
