@@ -6,7 +6,7 @@ RUN apt-get install -y software-properties-common \
     curl libsnappy-dev autoconf automake libtool pkg-config \
     git gradle 
 
-# Install java8
+# Install Oracle java8
 RUN add-apt-repository -y ppa:webupd8team/java
 RUN apt-get update
 RUN echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | /usr/bin/debconf-set-selections
