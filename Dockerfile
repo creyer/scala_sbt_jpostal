@@ -17,8 +17,8 @@ RUN apt-get install -y curl
 ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
 
 # Scala and SBT Versions to get
-ENV SCALA_VERSION 2.12.2
-ENV SBT_VERSION 0.13.15
+ENV SCALA_VERSION 2.12.3
+ENV SBT_VERSION 0.13.16
 
 # Install Scala
 RUN \
